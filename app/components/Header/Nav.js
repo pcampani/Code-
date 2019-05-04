@@ -13,19 +13,16 @@ function Nav() {
         <nav>
           <ul>
             <li>
-              <a href="#">Link</a>
+              <a href="#">Home</a>
             </li>
             <li>
-              <a href="#">Link</a>
+              <a href="#">Blog</a>
             </li>
             <li>
-              <a href="#">Link</a>
+              <a href="#">Projects</a>
             </li>
             <li>
-              <a href="#">Link</a>
-            </li>
-            <li>
-              <a href="#">Link</a>
+              <a href="#">Contact</a>
             </li>
           </ul>
         </nav>

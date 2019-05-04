@@ -1,11 +1,11 @@
 import React from "react";
 
-import MainHero from "./Header/MainHero";
+import Header from "./Header/Header";
 
 function App() {
   return (
     <>
-      <MainHero />
+      <Header />
     </>
   );
 }
