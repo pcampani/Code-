@@ -12,9 +12,7 @@ function Nav() {
         <a href="/">Philip Campani</a>
         <nav>
           <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
+            <li><a href="#">Home</a></li>
             <li>
               <a href="#">Blog</a>
             </li>

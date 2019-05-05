@@ -2,7 +2,7 @@ import React from "react";
 
 import Nav from "./Nav";
 
-function Hero() {
+function Hero(props) {
   return (
     <div>
       <h1>Web Developer</h1>
