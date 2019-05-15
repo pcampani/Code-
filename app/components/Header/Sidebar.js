@@ -1,16 +1,50 @@
 import React from "react";
+import styled from "styled-components";
+
+const Card = styled.div`
+  display: grid;
+  text-align: center;
+
+  div {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 1rem 0;
+    background: #333;
+
+    img {
+      width: 40px;
+      height: 40px;
+      background: #444;
+    }
+
+    p {
+      color: #fff;
+      text-align: left;
+    }
+  }
+`;
 
 function Sidebar() {
   return (
-    <div>
-      <h2>Im the sidebar component</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-        excepturi ad reprehenderit enim voluptates ut rem eveniet! Deserunt quas
-        pariatur officia maxime incidunt odit labore numquam id. Ipsam, delectus
-        earum.
-      </p>
-    </div>
+    <Card>
+      <h2>my Tech Stack</h2>
+      <div>
+        <img src="" alt="" />
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div>
+        <img src="" alt="" />
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div>
+        <img src="" alt="" />
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div>
+        <img src="" alt="" />
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      </div>
+    </Card>
   );
 }
 

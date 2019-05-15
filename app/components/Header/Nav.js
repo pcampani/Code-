@@ -3,10 +3,16 @@ import styled from "styled-components";
 
 const Header = styled.header`
   display: grid;
+  grid-template-columns: 1fr 2fr;
 
   nav,
   ul {
     display: grid;
+    text-align: right;
+  }
+
+  ul {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
 `;
 
