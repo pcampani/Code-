@@ -4,9 +4,15 @@ import styled from "styled-components";
 const CardWrapper = styled.div`
   display: flex;
   align-items: center;
+
   svg {
-    width: 80px;
+    width: 150px;
     height: 80px;
+    margin-right: 0.5rem;
+  }
+
+  p {
+    text-align: left;
   }
 `;
 
