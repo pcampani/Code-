@@ -3,12 +3,13 @@ import styled from "styled-components";
 
 const Header = styled.header`
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  padding: 1rem 0;
 
   nav,
   ul {
     display: grid;
-    text-align: right;
+    text-align: center;
   }
 
   ul {
